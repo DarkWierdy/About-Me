@@ -1,12 +1,11 @@
 #carouselAutoplaying {
-    height: 640px;
+    height: 300px !important;
 }
 
 
 #carouselAutoplaying .carousel-item img {
     display: block;
-    height: 300px;
     object-fit: cover;
-    height: fit-content;
-    width: fit-content;
+    height: fit-content !important;
+    width: fit-content !important;
 }
