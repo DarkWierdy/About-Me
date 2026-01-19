@@ -1,12 +1,22 @@
-#carouselAutoplaying .carousel-item {
+#carouselAutoplaying {
     height: 30vh;
+    max-height: 300px;
+    overflow: hidden;
+}
+
+#carouselAutoplaying .carousel-inner,
+#carouselAutoplaying .carousel-item {
+    height: 100%;
+}
+
+#carouselAutoplaying .carousel-item {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #carouselAutoplaying .carousel-item img {
-    height: 30vh;
+    height: 100%;
     max-height: 300px;
     width: auto;
     max-width: 100%;
