@@ -1,24 +1,27 @@
+/* Fixed visual box for every slide */
 #carouselAutoplaying {
     height: 30vh;
     max-height: 300px;
-    overflow: hidden;
 }
 
+/* Make slides fill the box */
 #carouselAutoplaying .carousel-inner,
 #carouselAutoplaying .carousel-item {
     height: 100%;
 }
 
+/* Center everything */
 #carouselAutoplaying .carousel-item {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
+/* Image scales uniformly inside the box */
 #carouselAutoplaying .carousel-item img {
-    height: 100%;
-    max-height: 300px;
-    width: auto;
+    max-height: 100%;
     max-width: 100%;
+    width: auto;
+    height: auto;
     object-fit: contain;
 }
