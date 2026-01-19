@@ -1,11 +1,18 @@
 #imageCarousel {
-    height: 300px !important;
+    height: 30vh !important;
 }
 
+#carouselAutoplaying .carousel-inner {
+    height: 30vh !important;
+}
+
+#carouselAutoplaying .carousel-item {
+    height: 30vh !important;
+}
 
 #carouselAutoplaying .carousel-item img {
     display: block;
     object-fit: cover;
-    height: fit-content !important;
-    width: fit-content !important;
+    height: 100% !important;
+    width: 100% !important;
 }
