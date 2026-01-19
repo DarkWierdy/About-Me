@@ -1,4 +1,7 @@
 #carouselAutoplaying .carousel-item img {
+    display: block;
     height: 300px;
     object-fit: cover;
+    height: fit-content;
+    width: fit-content;
 }
