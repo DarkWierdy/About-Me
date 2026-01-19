@@ -13,6 +13,6 @@
 #carouselAutoplaying .carousel-item img {
     display: block;
     object-fit: cover;
-    height: 100% !important;
+    height: fit-content !important;
     width: fit-content !important;
 }
