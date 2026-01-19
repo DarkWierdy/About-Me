@@ -14,5 +14,5 @@
     display: block;
     object-fit: cover;
     height: 100% !important;
-    width: 100% !important;
+    width: fit-content !important;
 }
